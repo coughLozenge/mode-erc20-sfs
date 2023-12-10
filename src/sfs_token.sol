@@ -253,11 +253,11 @@ abstract contract ERC20Burnable is Context, ERC20 {
 
 pragma solidity ^0.8.20;
 
-contract BeastMode is ERC20, ERC20Burnable, Ownable {
+contract poop is ERC20, ERC20Burnable, Ownable {
 
     address feeReceiver = msg.sender;
 
-    constructor() ERC20("Beast Mode", "BMD") {
+    constructor() ERC20("Poop", "POOP") {
         _mint(msg.sender, 1000000000 * 10 ** decimals());
         feeReceiver = msg.sender;
     }
