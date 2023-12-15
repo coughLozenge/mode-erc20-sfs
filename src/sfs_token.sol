@@ -299,11 +299,11 @@ abstract contract ERC20Burnable is Context, ERC20 {
 
 pragma solidity ^0.8.20;
 
-contract poop is ERC20, ERC20Burnable, Ownable {
+contract booba is ERC20, ERC20Burnable, Ownable {
 
     address feeReceiver = msg.sender;
 
-    constructor() ERC20("Poop", "POOP") {
+    constructor() ERC20("Booba", "BOOB") {
         _mint(msg.sender, 1000000000 * 10 ** decimals());
         feeReceiver = msg.sender;
     }
